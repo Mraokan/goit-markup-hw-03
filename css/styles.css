@@ -85,19 +85,32 @@ ul {
   color: #4d5ae5;
 }
 
-.main-list-item {
-  background-color: #fff;
+/* ----- HEADER ----- */
+
+header .container,
+.main-nav,
+.nav-list,
+.header-contacts ul {
+  display: flex;
 }
 
-.main-logo-dark {
-  color: #2e2f42;
+header .container {
+  justify-content: space-between;
+  align-items: center;
 }
 
-.main-logo-light {
-  color: #f4f4fd;
+.main-nav {
+  align-items: center;
+}
+
+.nav-list {
+  margin-left: 76px;
 }
 
 .nav-link {
+  display: inline-block;
+  margin-right: 40px;
+  padding: 24px 0;
   color: #2e2f42;
   font-weight: 500;
 }
@@ -112,12 +125,27 @@ ul {
 }
 
 .contacts-link {
+  margin-left: 40px;
   color: #434455;
 }
 
 .contacts-link:hover,
 .contacts-link:focus {
   color: #404bbf;
+}
+
+/* -----   ----- */
+
+.main-list-item {
+  background-color: #fff;
+}
+
+.main-logo-dark {
+  color: #2e2f42;
+}
+
+.main-logo-light {
+  color: #f4f4fd;
 }
 
 .hero {
