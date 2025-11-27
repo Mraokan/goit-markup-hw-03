@@ -37,7 +37,7 @@ ul {
 }
 
 .container {
-  max-width: 1158px;
+  width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -66,6 +66,7 @@ ul {
   color: #2e2f42;
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .heading-3 {
@@ -114,6 +115,14 @@ ul {
 .btn-cta:hover,
 .btn-cta:focus {
   background-color: #404bbf;
+}
+
+.main-list-item .wrapper {
+  padding: 32px 16px;
+}
+
+.main-list-item .heading-3 {
+  margin-bottom: 8px;
 }
 
 /* ---------- HEADER ---------- */
@@ -209,11 +218,11 @@ header .container {
 .features ul {
   display: flex;
   gap: 24px;
-  width: calc((100% - 3 * 24px) / 4);
 }
 
 .main-list-item {
   background-color: #fff;
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .our-team {
@@ -222,4 +231,17 @@ header .container {
 
 .main-footer {
   background-color: #2e2f42;
+}
+
+/* ---------- OUR TEAM ---------- */
+
+.our-team ul {
+  display: flex;
+  gap: 24px;
+  text-align: center;
+}
+
+.our-team .main-list-item {
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
