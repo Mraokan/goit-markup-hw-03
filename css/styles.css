@@ -99,6 +99,7 @@ ul {
 
 .btn-cta {
   display: block;
+  height: 56px;
   padding: 16px 32px;
   margin: 0 auto;
   border: none;
@@ -115,13 +116,17 @@ ul {
   background-color: #404bbf;
 }
 
-/* ----- HEADER ----- */
+/* ---------- HEADER ---------- */
 
 header .container,
 .main-nav,
 .nav-list,
 .header-contacts ul {
   display: flex;
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 header .container {
@@ -137,9 +142,16 @@ header .container {
   margin-left: 76px;
 }
 
+.nav-list li {
+  margin-right: 40px;
+}
+
+.nav-list li:last-of-type {
+  margin-right: 0;
+}
+
 .nav-link {
   display: inline-block;
-  margin-right: 40px;
   padding: 24px 0;
   color: #2e2f42;
   font-weight: 500;
@@ -154,8 +166,15 @@ header .container {
   font-style: normal;
 }
 
-.contacts-link {
+.header-contacts li {
   margin-left: 40px;
+}
+
+.header-contacts li:first-of-type {
+  margin-left: 0;
+}
+
+.contacts-link {
   color: #434455;
 }
 
@@ -164,7 +183,7 @@ header .container {
   color: #404bbf;
 }
 
-/* -----  HERO  ----- */
+/* ----------  HERO  ---------- */
 
 .hero {
   background-color: #2e2f42;
@@ -185,7 +204,7 @@ header .container {
   text-align: center;
 }
 
-/* -----  FEATURES  ----- */
+/* ----------  FEATURES  ---------- */
 
 .features ul {
   display: flex;
