@@ -209,6 +209,7 @@ header .container {
 .features ul {
   display: flex;
   gap: 24px;
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .main-list-item {
