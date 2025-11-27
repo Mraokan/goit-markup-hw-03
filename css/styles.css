@@ -262,3 +262,18 @@ header .container {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+
+/* ---------- FOOTER ---------- */
+
+.main-footer {
+  padding: 100px 0;
+}
+
+.main-footer .main-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.main-footer .text-light {
+  max-width: 264px;
+}
