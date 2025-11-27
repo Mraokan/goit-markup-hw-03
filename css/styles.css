@@ -75,6 +75,10 @@ ul {
   color: #2e2f42;
 }
 
+.text-light {
+  color: #f4f4fd;
+}
+
 .main-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -181,7 +185,12 @@ header .container {
   text-align: center;
 }
 
-/* -----    ----- */
+/* -----  FEATURES  ----- */
+
+.features ul {
+  display: flex;
+  gap: 24px;
+}
 
 .main-list-item {
   background-color: #fff;
@@ -193,8 +202,4 @@ header .container {
 
 .main-footer {
   background-color: #2e2f42;
-}
-
-.text-light {
-  color: #f4f4fd;
 }
